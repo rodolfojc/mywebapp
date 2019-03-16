@@ -8,6 +8,14 @@
   <name>mywebapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+  
+  <!-- ADD SERVLET API DEPENDENCY JAVAX.SERVLET-API-->
+  <dependency>
+  	<groupId>javax.servlet</groupId>
+  	<artifactId>javax.servlet-api</artifactId>
+  	<version>3.1.0</version>
+  </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
